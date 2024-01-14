@@ -1,11 +1,14 @@
 
 import './index.css'
+import PageHeader from './layouts/PageHeader'
 function App() {
   return (
     <>
-      <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+     <div className='max-h-screen felx flex-col'>
+      <PageHeader />
+      <div>1</div>
+      <div>2</div>
+     </div>
     </>
   )
 }
